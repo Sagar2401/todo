@@ -1,0 +1,74 @@
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  gap: 20px;
+}
+.box-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  gap: 20px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+
+  margin: 20px 40px;
+  width: 30%;
+  align-items: center;
+  border-radius: 6px;
+  box-shadow: 0px 8px 36px #222;
+  background-color: #fefefe;
+}
+.box .title {
+  align-self: flex-start;
+  padding: 10px 10px;
+  flex-direction: row;
+  /* margin: 14px; */
+  width: -webkit-fill-available;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+}
+
+.todo {
+  background-color: gray;
+}
+.doing {
+  background-color: pink;
+}
+.done {
+  background-color: skyblue;
+}
+.card-body {
+  height: 90%;
+  width: 90%;
+  overflow-y: auto;
+}
+.task-card {
+  margin: 10px;
+  border-radius: 6px;
+  box-shadow: 0px 8px 36px #222;
+
+  background-color: #fefefe;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px 10px;
+}
+.task-card h4 {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
+.task-card {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px 10px;
+}
+.task-card p {
+  color: grey;
+}
