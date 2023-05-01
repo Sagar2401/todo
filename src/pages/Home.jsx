@@ -51,7 +51,7 @@ const Home = () => {
           </Card.Body>
         </Card>
         <Card mainclass={"doing"}>
-          <Card.Header title="Pending" count={active.length} />
+          <Card.Header title="Doing" count={active.length} />
           <Card.Body>
             {active.map((item) => (
               <TaskCard
@@ -64,7 +64,7 @@ const Home = () => {
           </Card.Body>
         </Card>
         <Card mainclass={"done"}>
-          <Card.Header title="Pending" count={completed.length} />
+          <Card.Header title="done" count={completed.length} />
           <Card.Body>
             {completed.map((item) => (
               <TaskCard key={item.id} title={item.title} desc={item.task} />
